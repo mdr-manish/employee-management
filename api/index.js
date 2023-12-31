@@ -22,6 +22,7 @@ mongoose
     console.log("Error occurred connecting to MongoDB", error);
   });
 
+  // comment
 app.listen(port, () => {
   console.log("Server is running on port 8000");
 });
